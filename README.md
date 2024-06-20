@@ -14,4 +14,7 @@ Singapore Resale Flat Prices Predicting
 #### Data Collection - Data collected from public source from 1990 to 2024
 #### Feature Engineering - Added additional columns using the extracted data and removing the unwanted columns that is duplicated as additional columns
 #### Filling Null Values - Null values are presented in remaining_lease column filling those with median values
-####
+#### Finding Outliers and Skewness - Finding outliers using boxplot and skewness using distplot, removing outliers inter quartile range and removing skewness using numpy logarithm transform.
+#### Encoding - Encoding categorical variables with Label Encoding for the columns like town,flat model and flat type.
+#### Scaling - Scaling the all columns uding Standard Scaler
+#### Model Evaluation - Model Evaluation three models has been evaluated for the accurate prediction of the sale price.
